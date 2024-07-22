@@ -7,14 +7,18 @@ Excercises:
 */
 // Crear un objeto con 3 array nested dentro de el, de donde se tomaran los datos
 const routine = {
-    muscle: ["Cardio"],
+    muscle: ["Cardio", "More Cardio", "Even More Cardio", "Yup, more"],
     setsAndReps : ["3x12", "4x15", "3x6", "2x20", "5x3"],
-    excercises: ["Dumbbells Curl", "Prono", "Supino"]
+    excercises: ["Jumping Jacks", "Plank Jacks", "Trotters", "Burpees", "Jump Squat"]
 };
 // Paso 2: Generar un índice aleatorio
-randomIndexMuscle = Math.floor(Math.random() * routine.muscle.length);
-randomIndexsetsAndReps = Math.floor(Math.random() * routine.setsAndReps.length);
-randomIndexExcercises = Math.floor(Math.random() * routine.excercises.length);
+function getRandomIndex(array) {
+    return Math.floor(Math.random() * array.length);
+};
+
+randomIndexMuscle = getRandomIndex(routine.muscle);
+randomIndexsetsAndReps = getRandomIndex(routine.setsAndReps);
+randomIndexExcercises = getRandomIndex(routine.excercises);
 
 // Paso 3: Seleccionar elementos aleatorios usando el índice
 const arr1 = routine.muscle[randomIndexMuscle];
