@@ -10,14 +10,14 @@ Just print the console and the output message will tell you your daily routine.
 
 ## Technologies:
 
-1. __JavaScript__ for code language
-2. __Git__ for creating and managing files and uploading to GitHub repositories.  
-3. __VS Code__ For writting code
+1. _JavaScript_ for code language
+2. _Git_ for creating and managing files and uploading to GitHub repositories.  
+3. _VS Code_ For writting code
 
 ## Collaborators
 
-__Andres Gomez V__
+_Andres Gomez V_
 
 ## License
 
-__All rights reserved to the creator__
+_All rights reserved to the creator_
