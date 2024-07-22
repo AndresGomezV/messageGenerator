@@ -14,3 +14,10 @@ Just print the console and the output message will tell you your daily routine.
 2. __Git__ for creating and managing files and uploading to GitHub repositories.  
 3. __VS Code__ For writting code
 
+## Collaborators
+
+__Andres Gomez V__
+
+## License
+
+__All rights reserved to the creator__
